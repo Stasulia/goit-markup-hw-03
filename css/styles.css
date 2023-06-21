@@ -8,7 +8,11 @@
     --BLUE-accent-cl: #404BBF;
     --border-cl: #E7E9FC;
 }
-
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 /* Common styles */
 body {
     font-family: "Roboto", sans-serif;
@@ -16,11 +20,21 @@ body {
     color: var(--main-dark-accent);
     background-color: var(--accent-cl);
 }
-
+img {
+    display: block;
+    max-width: 100%;
+}
+/*Reserts*/
 ul, 
 ol {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
+h1, h2, h3, h4, h5 p {
+margin: 0;
+}
+
 .link, 
 a {
     text-decoration: none;
@@ -54,6 +68,14 @@ button {
     text-align: center;
     color: var(--main-dark-cl);
 }
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid red;
+}
     /* Logo styles */
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -74,11 +96,25 @@ button {
 .header {
     letter-spacing: 0.02em;
     color: var(--main-dark-cl);
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 .link {
     text-decoration: none;
 }    
-    
+.header-nav .logo {
+    margin-right: 76px;
+}
+
 .header-logo {}
     
 .web {}
@@ -87,6 +123,9 @@ button {
     
 .header-list {
     list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
       
 .header-link { 
@@ -104,7 +143,11 @@ button {
 .address {
     font-style: normal;
 }
-        
+.address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}       
 .tel {}
     
 .mail {}
@@ -127,6 +170,8 @@ button {
 
 .hero {
     background-color: var(--main-dark-cl);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -154,7 +199,10 @@ button {
 /* Advantages section*/
 .section {}
 
-.advantages {}
+.advantages {
+    padding-top: 120px;
+    padding-top: 60px;
+}
 
 .section-advantages-list {}
 
@@ -170,7 +218,10 @@ button {
 /*What are we doing section*/
 .section {}
 
-.doing {}
+.doing {
+padding-top: 60px;
+padding-bottom: 120px;
+}
 
 .section-doing-title {}
 
@@ -185,6 +236,8 @@ button {
 
 .team { 
     background-color: var(--main-light-cl) ;
+    padding-top: 120px;
+    padding-left: 120px;
 }
 
 .section-team-title {}
@@ -208,6 +261,8 @@ button {
 .footer {
     background: var(--main-dark-cl);
     color: var(--main-light-cl);
+    padding-top: 101.5px ;
+    padding-bottom: 100px;
 }
 .footer-text {
     line-height: 1.5;
