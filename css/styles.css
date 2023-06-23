@@ -47,6 +47,7 @@ ol {
 }
 h1, h2, h3, h4, h5 p {
 margin: 0;
+padding: 0;
 }
 
 .link, 
@@ -134,19 +135,12 @@ button {
 .header-nav .logo {
     margin-right: 76px;
 }
-
-.header-logo {}
-    
-.web {}
-    
-.studio {}
     
 .header-list {
     list-style: none;
     display: flex;
     align-items: center;
     gap: 40px;
-
 }
       
 .header-link { 
@@ -238,7 +232,7 @@ button {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.section-advantages-list {
+.section-advantages .list {
     display: flex;
     width: 264px;
     justify-content: space-between;
@@ -306,6 +300,8 @@ padding-bottom: 120px;
 }
 .section-team-item {
     background: var(--accent-cl);
+    border-radius: 0px 0px 4px 4px;
+    
 }
 
 .section-team-img {}
@@ -339,7 +335,7 @@ padding-bottom: 120px;
     width: 264px;
     margin-top: 17.5px;
 }
-.footer.footer.link-logo {
+.footer .logo {
     display: inline-block;
     margin-bottom: 16px;
 }
