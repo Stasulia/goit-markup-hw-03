@@ -241,7 +241,7 @@ button {
 .section-advantages-item:last-child {
     margin-right: 0;
 }   
-.section-advantages.subtitle {
+.section-advantages-item .subtitle {
     margin-bottom: 8px;
 }
 .section-advantages-text {
