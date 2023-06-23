@@ -225,7 +225,9 @@ button {
 }
 
 /* Advantages section*/
-.section {}
+.visually-hidden{
+    margin-bottom: 8px;
+}
 
 .section.advantages {
     padding-top: 120px;
@@ -239,7 +241,7 @@ button {
 }
 .section-advantages-item {
     padding: 8px;
-    width calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 .section-advantages-item:last-child {
     margin-right: 0;
