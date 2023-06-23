@@ -247,8 +247,6 @@ button {
 
 .section-advantages-item {
     padding: 8px;
-}
-.section-advantages-item:first-child {
     width calc((100% - 3 * 24px) / 4);
 }
 .section-advantages-item:last-child {
@@ -279,6 +277,7 @@ padding-bottom: 120px;
 .section-doing-list {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .section-doing-img:last-child {
@@ -335,7 +334,7 @@ padding-bottom: 120px;
     width: 264px;
     margin-top: 17.5px;
 }
-.footer.link {
+.footer.logo {
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -355,7 +354,10 @@ padding-bottom: 120px;
     height: 48px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding: 12px, 24px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
    
 }
 .portfolio-btn:hover,
