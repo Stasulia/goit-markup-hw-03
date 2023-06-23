@@ -243,14 +243,13 @@ button {
     width: 264px;
     justify-content: space-between;
     gap: 24px;
-
 }
 
 .section-advantages-item {
     padding: 8px;
+}
+.section-advantages-item:first-child {
     width calc((100% - 3 * 24px) / 4);
-    gap: 24px;
-
 }
 .section-advantages-item:last-child {
     margin-right: 0;
