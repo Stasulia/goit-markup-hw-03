@@ -268,7 +268,9 @@ padding-bottom: 120px;
     justify-content: space-between;
     gap: 24px;
 }
-
+.section-doing-item {
+    width: calc((100% - 2 * 24px) / 3);
+}
 .section-doing-img:last-child {
     margin-right: 0;
 }
