@@ -120,11 +120,7 @@ button {
 }
 .header-item { 
 }
-.header-link {
-    display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+
 .header-nav {
     display: flex;
     align-items: center;
@@ -151,6 +147,7 @@ button {
     color: var(--main-dark-cl);
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
 }
 .header-link:hover,
 .header-link:focus {
@@ -236,7 +233,6 @@ button {
     gap: 24px;
 }
 .section-advantages-item {
-    padding: 8px;
     width: calc((100% - 3 * 24px) / 4);
 }
 .section-advantages-item:last-child {
@@ -249,14 +245,12 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin: 0;
-    padding-top: 8px;
 }
 
 /*What are we doing section*/
 .section {}
 
 .doing {
-padding-top: 60px;
 padding-bottom: 120px;
 }
 
@@ -292,7 +286,6 @@ padding-bottom: 120px;
 
 .section-team-list {
     display: flex;
-    margin-bottom: 120px;
     gap: 24px;
 }
 
@@ -335,7 +328,6 @@ padding-bottom: 120px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
-    margin-top: 16px;
 }
 .footer .logo {
     display: inline-block;
@@ -353,7 +345,6 @@ padding-bottom: 120px;
     border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
-    min-width: 116px;
     height: 48px;
     line-height: 1.5;
     letter-spacing: 0.04em;
